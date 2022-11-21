@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- head section with all appropriate links -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body {
+  background-color: black; 
+}
+    </style>
+</head>
+<body>
+    <script src="script.js"></script> <!-- link to javascript file -->
+
+    <nav class="navbar navbar-light bg-black"><!-- this bootstrap class contains the header with a logo next to it-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="logo.png"
+            class="me-2"
+            height="150"
+            alt="Melville Museum Logo"
+            loading="lazy"
+          />
+          <small style="color:red;">The Melville Museum</small>
+        </a>
+      </div>
+    </nav>
+    
+
+     
+
+      <div class="container.fluid mt-3"> <!-- a bootstrap container containing the nav bar -->
+        <ul class="nav justify-content-center nav-tabs nav-justified"style="background-color: black">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" style="color:black;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html" style="color:red;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" style="color:red;">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html" style="color:red;">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookATrip.html" style="color:red;">Book a Trip</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container-fluid p-2 text-black text-center"> 
+        <h2 style="text-align:center;color:red;">Home</h2> <!-- "home" in a container -->
+      </div>
+
+      <div class="container mt-1"> <!-- container comtains 3 cards next to each other -->
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 style="color:red;">Stunning Dioramas</h3>
+            <p style="color:red;">Over 100 beautiful historical diormas made by Melville's leading hobbyists!</p>
+            <p style="color:red;">Many important historical periods reflected!</p>
+            <img src="diorama.jpg" class="mx-auto d-block" style="width:100%">
+          </div>
+          <div class="col-sm-4">
+            <h3 style="color:red;">Exquisite Art!</h3>
+            <p style="color:red;">Melville is known for its incredible artists. </p>
+            <p style="color:red;">Our museum has over 500 beautiful art peices on display and many more on the way!</p>
+            <img src="model.jpeg" class="mx-auto d-block" style="width:100%">
+          </div>
+          <div class="col-sm-4">
+            <h3 style="color:red;">Super Dope Food!</h3>        
+            <p style="color:red;">We have a section dedicated to the evolution of Urlich Avenue dairy!</p>
+            <p style="color:red;">Food tasting provided!</p>
+            <img src="pizza.jpg" class="mx-auto d-block" style="width:100%">
+            <img src="pizza2.jfif" class="mx-auto d-block" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      
+    
+      
+      <script src="script.js"></script>
+      <script src="https://replit.com/public/js/replit-badge.js" 
+      theme="blue" defer></script> 
+
+      <div class="container-fluid"> <!-- container with styled footer -->
+        <footer style= "margin: 10px;border: 1px solid red;">
+          <p style="color:red;text-align:center;vertical-align: center;padding: 10px;">Author: Mikhail Maksimov</p>
+        </footer>
+      </div>
+</body>
+</html>
